@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socks Page</title>
+    <link rel="stylesheet" href="/HTML/product page/css/style.css">
+</head>
+
+<body>
+    <nav id="breadcrumbs">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Socks</a></li>
+
+        </ul>
+    </nav>
+
+    <h1 class="product-title">Union Jack Socks</h1>
+    <section class="product-img">
+        <img src="/HTML/product page/img/socks.jpg" alt="Union Jack socks" width="500px">
+    </section>
+    <section class="product-option">
+        <div class="size-option">
+            <button class="size-button">6-10</button>
+            <button class="size-button">10.5-13</button>
+        </div>
+
+
+        <div class="quantity"><label for="quantity">Quantity:</label>
+            <select class="quantity-select"> name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <p class="price">£20.00</p>
+        <button class="add-to-bag">Add to bag</button>
+    </section>
+
+    <section>
+        <h2>Product Description</h2>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odit accusamus vero iste voluptatem impedit
+            expedita maxime fugit natus quia!</P>
+        <ul>
+            <li>product feature</li>
+            <li>product feature</li>
+            <li>product feature</li>
+        </ul>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Delivery OPtion</th>
+                <th>Price</th>
+                <th>Estimated Delivery Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard Delivery </td>
+                <td>£4.99</td>
+                <td>3-5 working days</td>
+            </tr>
+            <tr>
+                <td>Next Day Delivery</td>
+                <td>£7.99</td>
+                <td>next day delivery</td>
+            </tr>
+            <tr>
+                <td>Click & Collect</td>
+                <td>free</td>
+                <td>same day</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section>
+        <h2>Reviews</h2>
+        <article>
+            <h3>July</h3>
+            <p>★☆☆☆☆</p>
+            <p>Not fits me.</p>
+        </article>
+        <article>
+            <h3>Mike</h3>
+            <p>★★★★☆</p>
+            <p>very good.</p>
+        </article>
+    </section>
+</body>
+
+</html>
